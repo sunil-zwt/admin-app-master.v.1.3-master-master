@@ -1,0 +1,32 @@
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6.5px;
+}
+.add-btn{
+    height: 40px;
+    width: 70px;
+    background: linear-gradient(to right bottom,  #114d88, rgb(104, 157, 231));
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+  padding: 2px;
+}
+
+input[type="search"]{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right bottom,  #e6ffff, rgb(172, 204, 249));
+    border-radius: 5px;
+    width: 100%;
+
+}
+.input-search{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8rem;
+}

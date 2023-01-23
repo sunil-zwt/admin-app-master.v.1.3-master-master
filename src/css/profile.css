@@ -1,0 +1,103 @@
+.profile-section{
+    width: 100%;
+display: flex;
+justify-content: center;
+}
+.profile-container{
+    width: 50%;
+    display: flex;
+    
+   margin-top: 10%;
+}
+.profile-container-main{
+    background: linear-gradient(to right bottom,  #114d88, rgb(104, 157, 231));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 4rem 0;
+    border-radius: 20px 0 0 20px ;
+}
+.profile-container-details{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0 20px 20px 0 ;
+}
+.profile-container>.profile-container-main>p{
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.edit-profile-icon{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.profile-container>.profile-container-details>h1{
+    color: gray;
+    margin: 0.9px;
+    font-size: 22px;
+
+}
+.avatar-img{
+    width: 200px;
+    border-radius: 100px;
+}
+.general-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.email-details,.phone-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.email-details>h3{
+    color: gray;
+}
+.phone-details>h3{
+    color: gray;
+}
+.email-details>span{
+    color: rgb(165, 165, 165);
+}
+.phone-details>span{
+    color: rgb(165, 165, 165);
+}
+.address-details{
+    display: flex;
+    gap: 0.5rem;
+}
+.address-container>h2{
+    color: gray;
+    margin: 0.9px;
+    font-size: 22px;
+}
+.address-details>span{
+    color: gray;
+    font-size: 18px;
+}
+.address-details>p{
+    color: rgb(165, 165, 165);
+    font-size: 16px;
+}
+.address-container-details{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.profile-soicial-icons{
+    color: #114d88;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 20px;
+}
